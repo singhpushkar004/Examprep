@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 app.use(cors());
 app.use(express.json());
-const url = 'mongodb://localhost:27017/examprep'
+const url = 'mongodb+srv://praje8888:Pushkar7830@cluster0.0iiuaig.mongodb.net/examprep'
 mongoose.connect(url)
     .then(() => {
         console.log("successfully Connected")

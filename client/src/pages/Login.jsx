@@ -214,7 +214,7 @@ const Login = () => {
               <input type="checkbox" id="exampleCheck1" />
               <label htmlFor="exampleCheck1">
                 {" "}
-                Don't have an account? <Link to="/register">Register here</Link>.
+                Don't have an account? <Link to="/adlogin">Register here</Link>.
               </label>
             </div>
           </form>
